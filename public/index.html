@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Muthunagar Karuvadu: Sun-dried fish from Thoothukudi</title>
+  <meta name="description" content="Traditional sun-dried karuvadu from the shores of Thoothukudi, the Pearl City. Nethili, Vaalai, Kanava, Eral and more, cleaned, salted and dried the old way. Order online, delivered across India." />
+  <meta name="theme-color" content="#0b2a3c" />
+  <meta property="og:title" content="Muthunagar Karuvadu: Sun-dried on the shores of the Pearl City" />
+  <meta property="og:description" content="Traditional karuvadu from Thoothukudi. Salt, turmeric, sun. Order online, delivered across India." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Tamil:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <a class="skip" href="#shop">Skip to shop</a>
+
+  <!-- ============================ HEADER ============================ -->
+  <header class="nav" id="nav">
+    <a class="brand" href="/" aria-label="Muthunagar Karuvadu home">
+      <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true">
+        <circle cx="24" cy="24" r="23" fill="#0b2a3c" />
+        <circle cx="24" cy="24" r="17" fill="none" stroke="#e8a317" stroke-width="1.5" stroke-dasharray="2 3" />
+        <path d="M10 25c5-7 15-9 22-4l6-4c-1 4-1 8 0 12l-6-4c-7 5-17 3-22-4z" fill="#f6efe2" />
+        <circle cx="15.5" cy="24" r="1.4" fill="#0b2a3c" />
+      </svg>
+      <span class="brand-text">
+        <strong>Muthunagar Karuvadu</strong>
+        <small lang="ta">முத்துநகர் கருவாடு</small>
+      </span>
+    </a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="#shop">Shop</a>
+      <a href="#story">Our story</a>
+      <a href="#process">How it's made</a>
+      <a href="#bulk">Bulk orders</a>
+      <a href="/track" data-open-track>Track order</a>
+    </nav>
+    <button class="cart-btn" id="cartBtn" aria-label="Open cart">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.4 11.2a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.5L21 8H6.2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="10" cy="20" r="1.4" fill="currentColor"/><circle cx="17" cy="20" r="1.4" fill="currentColor"/></svg>
+      <span>Cart</span>
+      <span class="cart-count" id="cartCount" hidden>0</span>
+    </button>
+  </header>
+
+  <main>
+    <!-- ============================ HERO ============================ -->
+    <section class="hero" id="top">
+      <div class="sky" aria-hidden="true">
+        <div class="sun" id="sun"></div>
+        <svg class="birds" viewBox="0 0 300 80"><path d="M10 40q10-12 20 0q10-12 20 0" /><path d="M90 20q7-9 14 0q7-9 14 0" /><path d="M200 50q8-10 16 0q8-10 16 0" /></svg>
+      </div>
+
+      <div class="hero-copy">
+        <p class="eyebrow reveal">From the shores of the Pearl City · Thoothukudi</p>
+        <h1 class="reveal">Sun-dried<br /><em>the slow way.</em></h1>
+        <p class="lede reveal">Caught at dawn, cleaned by hand, rubbed with sea salt and turmeric, then dried under the Thoothukudi sun. Real <span lang="ta">கருவாடு</span>, packed fresh and shipped across India.</p>
+        <div class="hero-ctas reveal">
+          <a class="btn btn-primary" href="#shop">Shop this week's catch</a>
+          <a class="btn btn-ghost" href="#bulk">Bulk &amp; restaurant orders</a>
+        </div>
+      </div>
+
+      <!-- drying rack -->
+      <div class="rack" aria-hidden="true">
+        <div class="rack-pole left"></div>
+        <div class="rack-pole right"></div>
+        <div class="rack-rope"></div>
+        <div class="rack-fish" style="--d:0s;--x:8%"></div>
+        <div class="rack-fish" style="--d:.6s;--x:24%"></div>
+        <div class="rack-fish small" style="--d:1.1s;--x:39%"></div>
+        <div class="rack-fish" style="--d:.3s;--x:54%"></div>
+        <div class="rack-fish small" style="--d:.9s;--x:69%"></div>
+        <div class="rack-fish" style="--d:1.4s;--x:84%"></div>
+      </div>
+
+      <div class="sea" aria-hidden="true">
+        <svg class="boat" viewBox="0 0 160 70"><path d="M8 40h144l-18 20H30z" fill="#0b2a3c"/><path d="M80 40V4l34 30z" fill="#f3e6cf"/><path d="M76 40V8L50 34z" fill="#e2673a"/></svg>
+        <svg class="wave w1" viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0 60c120-40 240-40 360 0s240 40 360 0 240-40 360 0 240 40 360 0v60H0z"/></svg>
+        <svg class="wave w2" viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0 70c120-30 240-30 360 0s240 30 360 0 240-30 360 0 240 30 360 0v50H0z"/></svg>
+        <svg class="wave w3" viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0 80c60-22 120-22 180 0s120 22 180 0 c60-22 120-22 180 0s120 22 180 0 c60-22 120-22 180 0s120 22 180 0 c60-22 120-22 180 0s120 22 180 0v40H0z"/></svg>
+      </div>
+      <a class="scroll-cue" href="#promise" aria-label="Scroll down"><span></span></a>
+    </section>
+
+    <!-- ============================ PROMISE ============================ -->
+    <section class="promise" id="promise">
+      <ul>
+        <li><b>0</b><span>chemicals or preservatives</span></li>
+        <li><b>3</b><span>ingredients: fish, salt, sun</span></li>
+        <li><b>48h</b><span>from rack to vacuum pack</span></li>
+        <li><b>All India</b><span>delivery to your doorstep</span></li>
+      </ul>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track" id="marquee"></div>
+    </div>
+
+    <!-- ============================ SHOP ============================ -->
+    <section class="shop" id="shop">
+      <div class="section-head">
+        <p class="eyebrow">This week's catch</p>
+        <h2>Pick your <em>karuvadu</em></h2>
+        <p class="muted">Every pack is cleaned, sun-dried and vacuum-sealed. Choose a size, add to cart and check out in a minute. No waiting on chats.</p>
+      </div>
+      <div class="filters" id="filters" role="tablist" aria-label="Filter products">
+        <button class="chip active" data-filter="all" role="tab" aria-selected="true">All</button>
+        <button class="chip" data-filter="Fry" role="tab" aria-selected="false">For frying</button>
+        <button class="chip" data-filter="Kuzhambu" role="tab" aria-selected="false">For kuzhambu</button>
+        <button class="chip" data-filter="Thokku" role="tab" aria-selected="false">For thokku</button>
+      </div>
+      <div class="grid" id="grid" aria-live="polite">
+        <div class="loading">Laying out the catch…</div>
+      </div>
+      <p class="shop-note">Ordering more than <b data-bulk-kg>5</b> kg, or buying for a restaurant or shop? <a href="#bulk">See bulk orders →</a></p>
+    </section>
+
+    <!-- ============================ STORY ============================ -->
+    <section class="story" id="story">
+      <div class="story-pearl" aria-hidden="true"><div class="pearl"></div></div>
+      <div class="story-copy">
+        <p class="eyebrow">Our story</p>
+        <h2>The <em>Pearl City</em> has always smelled of the sea.</h2>
+        <p>Thoothukudi was once known to the world for its pearls. People here still call it <b lang="ta">முத்துநகர்</b>, Muthu Nagar. Long before refrigeration, families along this coast kept the catch the only way they knew: salt, turmeric and days of hot sun.</p>
+        <p>We still do it that way. Our fish comes straight off the boats at dawn and is cleaned and salted on the same day. It dries on bamboo racks a few metres from the waves. Nothing is added that your grandmother wouldn't recognise.</p>
+        <p class="signature">The Muthunagar family</p>
+      </div>
+    </section>
+
+    <!-- ============================ PROCESS ============================ -->
+    <section class="process" id="process">
+      <div class="section-head light">
+        <p class="eyebrow">How it's made</p>
+        <h2>From the boat <em>to your kitchen</em></h2>
+      </div>
+      <div class="sunpath" aria-hidden="true"><div class="sunpath-sun" id="sunpathSun"></div></div>
+      <ol class="steps">
+        <li class="step reveal">
+          <span class="step-time">5:00 am</span>
+          <h3>The dawn catch</h3>
+          <p>Country boats return to the Thoothukudi harbour. We pick only the freshest fish, firm and bright-eyed.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step-time">8:00 am</span>
+          <h3>Clean &amp; salt</h3>
+          <p>Each fish is gutted, washed in clean water and rubbed with sea salt and a little turmeric, which is a natural preservative.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step-time">Days 1–3</span>
+          <h3>Sun on the racks</h3>
+          <p>The fish dries on raised racks in the coastal sun and sea breeze. It's turned by hand and never touches the sand.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step-time">Day 4</span>
+          <h3>Seal &amp; ship</h3>
+          <p>We sort it and vacuum-seal it in odour-proof packs, then ship it to you. Your neighbours won't know.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============================ KITCHEN ============================ -->
+    <section class="kitchen" id="kitchen">
+      <div class="section-head">
+        <p class="eyebrow">In the kitchen</p>
+        <h2>Three ways to <em>fall in love</em></h2>
+      </div>
+      <div class="recipes">
+        <article class="recipe reveal">
+          <div class="recipe-badge">15 min</div>
+          <h3>Nethili fry</h3>
+          <p>Soak in warm water for 10 minutes, then drain. Fry with shallots, chilli powder and curry leaves until crisp. It goes perfectly with rasam rice.</p>
+          <button class="link-btn" data-quick="nethili">Get Nethili →</button>
+        </article>
+        <article class="recipe reveal">
+          <div class="recipe-badge">35 min</div>
+          <h3>Karuvadu kuzhambu</h3>
+          <p>Make a tangy tamarind gravy with brinjal, drumstick and garlic. Add the karuvadu in the last 10 minutes. It tastes even better the next day.</p>
+          <button class="link-btn" data-quick="vaalai">Get Vaalai →</button>
+        </article>
+        <article class="recipe reveal">
+          <div class="recipe-badge">20 min</div>
+          <h3>Sura puttu</h3>
+          <p>Boil and flake the dried shark. Sauté it with onion, garlic, turmeric and grated coconut. It's a Thoothukudi classic.</p>
+          <button class="link-btn" data-quick="sura">Get Sura →</button>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============================ BULK ============================ -->
+    <section class="bulk" id="bulk">
+      <div class="bulk-inner">
+        <div>
+          <p class="eyebrow">For restaurants, shops &amp; resellers</p>
+          <h2>Buying in <em>bulk?</em></h2>
+          <p>For orders above <b data-bulk-kg>5</b> kg we offer wholesale pricing, mixed lots and regular weekly supply. Message us on WhatsApp with what you need and we'll reply with a quote.</p>
+          <ul class="bulk-list">
+            <li>Wholesale rates from 5 kg</li>
+            <li>Steady supply for restaurants &amp; messes</li>
+            <li>Custom cleaning &amp; cuts</li>
+          </ul>
+        </div>
+        <div class="bulk-card">
+          <h3>Bulk enquiry</h3>
+          <form id="bulkForm" class="form">
+            <label>Business name<input name="biz" autocomplete="organization" placeholder="e.g. Annapoorna Mess" /></label>
+            <label>What do you need?<input name="items" placeholder="e.g. Nethili 10 kg, Vaalai 5 kg" required /></label>
+            <div class="row">
+              <label>City<input name="city" autocomplete="address-level2" required /></label>
+              <label>How often?
+                <select name="freq"><option>One-time</option><option>Weekly</option><option>Monthly</option></select>
+              </label>
+            </div>
+            <button class="btn btn-wa" type="submit">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1c-.2.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4a.5.5 0 0 0 0-.4l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.1 5.1 0 0 0 1.1 2.7 11.7 11.7 0 0 0 4.5 4c1.7.7 2.3.8 3.2.7a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.4-.3z"/></svg>
+              Send enquiry on WhatsApp
+            </button>
+            <p class="tiny">Opens WhatsApp with your details already filled in.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ FAQ ============================ -->
+    <section class="faq" id="faq">
+      <div class="section-head">
+        <p class="eyebrow">Good to know</p>
+        <h2>Questions, <em>answered</em></h2>
+      </div>
+      <div class="faq-list">
+        <details><summary>How long does karuvadu last?</summary><p>Unopened vacuum packs keep for 3 months in a cool, dry place. After opening, store it in an airtight box in the fridge and it will last up to 6 months.</p></details>
+        <details><summary>Will the parcel smell?</summary><p>No. Every pack is vacuum-sealed and double-bagged in odour-proof packaging. You'll only smell it when you open it.</p></details>
+        <details><summary>Where do you deliver and how much does it cost?</summary><p>We deliver across India. Enter your pincode at checkout to see the exact charge and delivery time. Tamil Nadu orders usually arrive in 2–4 days. Delivery is free on larger orders.</p></details>
+        <details><summary>How do I pay?</summary><p>Pay instantly with any UPI app (GPay, PhonePe, Paytm) by scanning the QR code shown after you order. Cash on delivery is also available in most areas.</p></details>
+        <details><summary>Is it very salty? How do I prepare it?</summary><p>We use only as much salt as drying needs. Before cooking, soak it in warm water for 10–15 minutes and rinse twice. That removes the extra salt and softens the fish.</p></details>
+        <details><summary>How do I track my order?</summary><p>Use <a href="/track" data-open-track>Track order</a> with your order ID and mobile number. You'll see each step from packing to delivery.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================ FOOTER ============================ -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <strong class="footer-brand">Muthunagar Karuvadu</strong>
+        <p lang="ta" class="ta">முத்துநகர் கருவாடு · தூத்துக்குடி</p>
+        <p class="muted-light">Traditional sun-dried fish from Thoothukudi, Tamil Nadu.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#shop">Shop</a>
+        <a href="/track" data-open-track>Track order</a>
+        <a href="#bulk">Bulk orders</a>
+        <a id="igLink" href="#" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+    <p class="copyright">© <span id="year"></span> Muthunagar Karuvadu. Made by the sea.</p>
+  </footer>
+
+  <!-- floating mobile cart bar -->
+  <button class="mobile-cart" id="mobileCart" hidden>
+    <span id="mobileCartText">View cart</span>
+    <b id="mobileCartTotal">₹0</b>
+  </button>
+
+  <!-- ============================ CART DRAWER ============================ -->
+  <div class="scrim" id="scrim" hidden></div>
+  <aside class="drawer" id="drawer" aria-label="Shopping cart" aria-hidden="true">
+    <div class="drawer-head">
+      <button class="icon-btn" id="drawerBack" aria-label="Back" hidden>←</button>
+      <h2 id="drawerTitle">Your cart</h2>
+      <button class="icon-btn" id="drawerClose" aria-label="Close">✕</button>
+    </div>
+    <div class="steps-bar" id="stepsBar">
+      <span class="on">Cart</span><span>Details</span><span>Pay</span>
+    </div>
+    <div class="drawer-body" id="drawerBody"></div>
+    <div class="drawer-foot" id="drawerFoot"></div>
+  </aside>
+
+  <!-- ============================ MODALS ============================ -->
+  <dialog class="modal" id="quickView" aria-label="Product details">
+    <button class="icon-btn modal-close" data-close aria-label="Close">✕</button>
+    <div id="quickBody"></div>
+  </dialog>
+
+  <dialog class="modal" id="trackModal" aria-label="Track your order">
+    <button class="icon-btn modal-close" data-close aria-label="Close">✕</button>
+    <h2>Track your order</h2>
+    <form id="trackForm" class="form">
+      <label>Order ID<input name="id" placeholder="MK261116-ABCD" required autocomplete="off" style="text-transform:uppercase" /></label>
+      <label>Mobile number<input name="phone" inputmode="numeric" placeholder="10-digit mobile" required autocomplete="tel" /></label>
+      <button class="btn btn-primary" type="submit">Track</button>
+    </form>
+    <div id="trackResult"></div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="/app.js" defer></script>
+</body>
+</html>

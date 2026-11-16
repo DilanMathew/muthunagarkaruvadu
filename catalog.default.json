@@ -1,0 +1,146 @@
+[
+  {
+    "id": "nethili",
+    "name": "Nethili Karuvadu",
+    "tamil": "நெத்திலி கருவாடு",
+    "english": "Dried Anchovy",
+    "art": "cluster",
+    "color": "#c9b48a",
+    "tag": "Bestseller",
+    "description": "Tiny, crunchy, cleaned and headless. The everyday karuvadu: fry it crisp with onions and chilli.",
+    "bestFor": ["Fry", "Thokku", "Kuzhambu"],
+    "inStock": true,
+    "image": "",
+    "variants": [
+      { "label": "250 g", "grams": 250, "price": 220 },
+      { "label": "500 g", "grams": 500, "price": 420 },
+      { "label": "1 kg", "grams": 1000, "price": 800 }
+    ]
+  },
+  {
+    "id": "vaalai",
+    "name": "Vaalai Karuvadu",
+    "tamil": "வாளை கருவாடு",
+    "english": "Dried Ribbonfish",
+    "art": "ribbon",
+    "color": "#d8cdb6",
+    "tag": "",
+    "description": "Long silver ribbons, sun-dried whole. Meaty pieces that soak up a tangy tamarind kuzhambu.",
+    "bestFor": ["Kuzhambu", "Fry"],
+    "inStock": true,
+    "image": "",
+    "variants": [
+      { "label": "250 g", "grams": 250, "price": 180 },
+      { "label": "500 g", "grams": 500, "price": 340 },
+      { "label": "1 kg", "grams": 1000, "price": 650 }
+    ]
+  },
+  {
+    "id": "kanava",
+    "name": "Kanava Karuvadu",
+    "tamil": "கணவாய் கருவாடு",
+    "english": "Dried Squid",
+    "art": "squid",
+    "color": "#e2c6a6",
+    "tag": "Chef's pick",
+    "description": "Sweet, chewy dried squid rings. Roast with pepper and curry leaves for a snack that disappears fast.",
+    "bestFor": ["Pepper roast", "Thokku"],
+    "inStock": true,
+    "image": "",
+    "variants": [
+      { "label": "250 g", "grams": 250, "price": 320 },
+      { "label": "500 g", "grams": 500, "price": 620 },
+      { "label": "1 kg", "grams": 1000, "price": 1200 }
+    ]
+  },
+  {
+    "id": "eral",
+    "name": "Eral Karuvadu",
+    "tamil": "இறால் கருவாடு",
+    "english": "Dried Prawns",
+    "art": "prawn",
+    "color": "#e59a6b",
+    "tag": "",
+    "description": "Peeled, sun-dried prawns full of umami. A handful turns any thokku or rice into a meal.",
+    "bestFor": ["Thokku", "Rice", "Chutney"],
+    "inStock": true,
+    "image": "",
+    "variants": [
+      { "label": "250 g", "grams": 250, "price": 360 },
+      { "label": "500 g", "grams": 500, "price": 700 },
+      { "label": "1 kg", "grams": 1000, "price": 1350 }
+    ]
+  },
+  {
+    "id": "sura",
+    "name": "Sura Karuvadu",
+    "tamil": "சுறா கருவாடு",
+    "english": "Dried Shark",
+    "art": "shark",
+    "color": "#9aa3a8",
+    "tag": "",
+    "description": "Boneless, flaky dried shark. Traditionally made into puttu: scrambled with onion, garlic and spice.",
+    "bestFor": ["Puttu", "Kuzhambu"],
+    "inStock": true,
+    "image": "",
+    "variants": [
+      { "label": "250 g", "grams": 250, "price": 300 },
+      { "label": "500 g", "grams": 500, "price": 580 },
+      { "label": "1 kg", "grams": 1000, "price": 1100 }
+    ]
+  },
+  {
+    "id": "paarai",
+    "name": "Paarai Karuvadu",
+    "tamil": "பாறை கருவாடு",
+    "english": "Dried Trevally",
+    "art": "fish",
+    "color": "#b9c0b0",
+    "tag": "",
+    "description": "Thick, firm steaks cut from trevally. Holds its shape in curries and fries up beautifully.",
+    "bestFor": ["Kuzhambu", "Fry"],
+    "inStock": true,
+    "image": "",
+    "variants": [
+      { "label": "250 g", "grams": 250, "price": 240 },
+      { "label": "500 g", "grams": 500, "price": 460 },
+      { "label": "1 kg", "grams": 1000, "price": 880 }
+    ]
+  },
+  {
+    "id": "sankara",
+    "name": "Sankara Karuvadu",
+    "tamil": "சங்கரா கருவாடு",
+    "english": "Dried Red Snapper",
+    "art": "fish",
+    "color": "#d97a5c",
+    "tag": "Premium",
+    "description": "Red snapper pieces, salted lightly and dried slow. Rich, mild and the pride of a festival kuzhambu.",
+    "bestFor": ["Kuzhambu", "Gravy"],
+    "inStock": true,
+    "image": "",
+    "variants": [
+      { "label": "250 g", "grams": 250, "price": 280 },
+      { "label": "500 g", "grams": 500, "price": 540 },
+      { "label": "1 kg", "grams": 1000, "price": 1040 }
+    ]
+  },
+  {
+    "id": "nagarai",
+    "name": "Nagarai Karuvadu",
+    "tamil": "நகரை கருவாடு",
+    "english": "Dried Goatfish",
+    "art": "fish",
+    "color": "#e0b25e",
+    "tag": "",
+    "description": "Small golden goatfish, dried whole. Crispy when fried, with a delicate, sweet flesh.",
+    "bestFor": ["Fry"],
+    "inStock": true,
+    "image": "",
+    "variants": [
+      { "label": "250 g", "grams": 250, "price": 200 },
+      { "label": "500 g", "grams": 500, "price": 380 },
+      { "label": "1 kg", "grams": 1000, "price": 720 }
+    ]
+  }
+]

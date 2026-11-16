@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="robots" content="noindex" />
+  <title>Orders · Muthunagar Karuvadu</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/admin.css" />
+</head>
+<body>
+  <section id="login" class="login" hidden>
+    <form id="loginForm" class="panel">
+      <h1>Shop admin</h1>
+      <p class="muted">Muthunagar Karuvadu</p>
+      <label>Password<input type="password" name="password" autocomplete="current-password" required autofocus /></label>
+      <button class="btn primary" type="submit">Log in</button>
+      <p class="err" id="loginErr"></p>
+    </form>
+  </section>
+
+  <section id="app" hidden>
+    <header class="top">
+      <div>
+        <h1>Orders</h1>
+        <p class="muted" id="summary"></p>
+      </div>
+      <div class="top-actions">
+        <button class="btn" id="refresh" title="Refresh">↻ Refresh</button>
+        <button class="btn ghost" id="logout">Log out</button>
+      </div>
+    </header>
+
+    <nav class="tabs">
+      <button class="tab on" data-tab="orders">Orders</button>
+      <button class="tab" data-tab="products">Prices &amp; stock</button>
+    </nav>
+
+    <div id="ordersTab">
+      <div class="toolbar">
+        <div class="chips" id="statusFilter"></div>
+        <input type="search" id="search" placeholder="Search name, phone, order ID, city…" />
+      </div>
+      <div id="orders" class="orders"></div>
+    </div>
+
+    <div id="productsTab" hidden>
+      <p class="muted">Change prices and stock here. Updates show on the website straight away. Mark items as <b>sold out</b> so customers stop ordering them.</p>
+      <div id="products" class="products"></div>
+    </div>
+  </section>
+
+  <div class="toast" id="toast"></div>
+  <script src="/admin.js" defer></script>
+</body>
+</html>
